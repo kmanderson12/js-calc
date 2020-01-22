@@ -1,0 +1,150 @@
+html {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -ms-user-select: none;
+}
+
+body {
+  background: linear-gradient(135deg, #1f5f85, #60a1c7);
+  background-repeat: no-repeat;
+  font-size: 2.5em;
+  font-family: "Dosis", sans-serif;
+  min-height: 100vh;
+}
+a,
+a:hover,
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.icon {
+  display: block;
+  color: white;
+  text-align: right;
+  font-size: 1em;
+  padding-right: 0.3em;
+  opacity: 0.6;
+}
+
+.container {
+  min-height: 550px;
+  width: 350px;
+  margin: 40px auto;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding-top: 10px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.screen {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+  text-align: right;
+  line-height: 100px;
+  width: 88%;
+  margin: 20px auto;
+  height: 110px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.display {
+  padding-right: 30px;
+}
+
+.button {
+  display: inline-block;
+  text-align: center;
+  height: 67px;
+  width: 67px;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.3);
+  border-radius: 7px;
+  background: rgba(0, 0, 0, 0.3);
+  line-height: 67px;
+  margin: 3px;
+  color: white;
+  opacity: 0.95;
+  box-shadow: inset 0 0 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button:active {
+  transform: scale(0.95);
+}
+.clear {
+  background: #ff5343;
+}
+.opp {
+  background: #e89c3f;
+}
+.zero {
+  width: 147px;
+  float: left;
+  margin-left: 20px;
+}
+
+.dot {
+  float: left;
+  margin-left: 12px;
+}
+.ka {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 0.5em;
+}
+.equal {
+  position: absolute;
+  height: 143px;
+  margin-left: 2px;
+  line-height: 135px;
+}
+.hidden {
+  visibility: hidden;
+}
+
+h1.title {
+  font-size: 9px;
+  margin: 0 auto;
+  text-align: left;
+  width: 88%;
+  padding: 0;
+  padding-left: 10px;
+  height: 0;
+  color: white;
+  font-weight: 300;
+  letter-spacing: 3px;
+  opacity: 0.5;
+}
+
+.battery {
+  width: 30px;
+  height: 8px;
+  background: rgba(0, 0, 0, 0.3);
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
+  left: 265px;
+  top: 7px;
+  border-radius: 3px;
+}
+.b1 {
+  position: relative;
+  display: inline;
+  width: 28%;
+  height: 90%;
+  background: white;
+  opacity: 0.3;
+}
+.full {
+  opacity: 0.5;
+}
